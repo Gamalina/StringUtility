@@ -116,6 +116,7 @@ namespace TestStringUtility
             int actualResult = classUnderTest.CountOccurences(stringToCheck, stringToFind);
             
 
+
             Assert.AreEqual(expectedResult, actualResult);
         }
 
